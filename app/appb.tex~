@@ -1,0 +1,84 @@
+\chapter{Cut Optimization of TPC PID and SPD hit requirement}
+
+{\fontsize{8pt}{0pt}\selectfont
+\begin{table}
+  \centering
+    \begin{tabular}{ccccc} \hline
+      Cut index &  leg $p_{T}$(GeV/c)  &  SPD hit & TPC n$\sigma_{pion}$ & TPC n$\sigma_{proton}$ \\ \hline
+      0                &  0.8  & Any     &     2.5                           & 3                    \\ 
+      1                &  1.0  & Any     &     2.5                           & 3                    \\ 
+      2                &  1.1  & Any     &     2.5                           & 3                     \\ 
+      3                &  0.8  & First   &     2.5                           & 3                   \\ 
+      4                &  1.0  & First   &     2.5                           & 3                   \\ 
+      5                &  1.1  & First   &     2.5                           & 3                   \\ 
+      6                &  0.8  & Any     &     3                           & 3                    \\ 
+      7                &  1.0  & Any     &     3                           & 3                    \\ 
+      8                &  1.1  & Any     &     3                           & 3                     \\ 
+      9                &  0.8  & First   &     3                           & 3                   \\ 
+      10                &  1.0  & First   &     3                           & 3                   \\ 
+      11                &  1.1  & First   &     3                           & 3                   \\ 
+      12                &  0.8  & Any     &     3.5                           & 3                    \\ 
+      13                &  1.0  & Any     &     3.5                           & 3                    \\ 
+      14                &  1.1  & Any     &     3.5                           & 3                     \\ 
+      15                &  0.8  & First   &     3.5                           & 3                   \\ 
+      16                &  1.0  & First   &     3.5                           & 3                   \\ 
+      17                &  1.1  & First   &     3.5                           & 3                   \\ 
+      18                &  0.8  & Any     &     4                           & 3                    \\ 
+      19                &  1.0  & Any     &     4                           & 3                    \\ 
+      20                &  1.1  & Any     &     4                           & 3                     \\ 
+      21                &  0.8  & First   &     4                           & 3                   \\ 
+      22                &  1.0  & First   &     4                           & 3                   \\ 
+      23                &  1.1  & First   &     4                           & 3                   \\ 
+      24                &  0.8  & Any     &     2.5                           & 3.5                    \\ 
+      25                &  1.0  & Any     &     2.5                           & 3.5                    \\ 
+      26                &  1.1  & Any     &     2.5                           & 3.5                     \\ 
+      27                &  0.8  & First   &     2.5                           & 3.5                   \\ 
+      28                &  1.0  & First   &     2.5                           & 3.5                   \\ 
+      29                &  1.1  & First   &     2.5                           & 3.5                   \\ 
+      30                &  0.8  & Any     &     3                           & 3.5                    \\ 
+      31                &  1.0  & Any     &     3                           & 3.5                    \\ 
+      32                &  1.1  & Any     &     3                           & 3.5                     \\ 
+      33                &  0.8  & First   &     3                           & 3.5                   \\ 
+      34                &  1.0  & First   &     3                           & 3.5                   \\ 
+      35                &  1.1  & First   &     3                           & 3.5                   \\ 
+      36                &  0.8  & Any     &     3.5                           & 3.5                    \\ 
+      37                &  1.0  & Any     &     3.5                           & 3.5                    \\ 
+      38                &  1.1  & Any     &     3.5                           & 3.5                     \\ 
+      39                &  0.8  & First   &     3.5                           & 3.5                   \\ 
+      40                &  1.0  & First   &     3.5                           & 3.5                   \\ 
+      41                &  1.1  & First   &     3.5                           & 3.5                   \\ 
+      42                &  0.8  & Any     &     4                           & 3.5                    \\ 
+      43                &  1.0  & Any     &     4                           & 3.5                    \\ 
+      44                &  1.1  & Any     &     4                           & 3.5                     \\ 
+      45                &  0.8  & First   &     4                           & 3.5                   \\ 
+      46                &  1.0  & First   &     4                           & 3.5                   \\ 
+      47                &  1.1  & First   &     4                           & 3.5                   \\ 
+      48                &  0.8  & Any     &     2.5                           & 4                    \\ 
+      49                &  1.0  & Any     &     2.5                           & 4                    \\ 
+      50                &  1.1  & Any     &     2.5                           & 4                     \\ 
+      51                &  0.8  & First   &     2.5                           & 4                   \\ 
+      52                &  1.0  & First   &     2.5                           & 4                   \\ 
+      53                &  1.1  & First   &     2.5                           & 4                   \\ 
+      54                &  0.8  & Any     &     3                           & 4                    \\ 
+      55                &  1.0  & Any     &     3                           & 4                    \\ 
+      56                &  1.1  & Any     &     3                           & 4                     \\ 
+      57                &  0.8  & First   &     3                           & 4                   \\ 
+      58                &  1.0  & First   &     3                           & 4                   \\ 
+      59                &  1.1  & First   &     3                           & 4                   \\ 
+      60                &  0.8  & Any     &     3.5                           & 4                    \\ 
+      61                &  1.0  & Any     &     3.5                           & 4                    \\ 
+      62                &  1.1  & Any     &     3.5                           & 4                     \\ 
+      63                &  0.8  & First   &     3.5                           & 4                   \\ 
+      64                &  1.0  & First   &     3.5                           & 4                   \\ 
+      65                &  1.1  & First   &     3.5                           & 4                   \\ 
+      66                &  0.8  & Any     &     4                           & 4                    \\ 
+      67                &  1.0  & Any     &     4                           & 4                    \\ 
+      68                &  1.1  & Any     &     4                           & 4                     \\ 
+      69                &  0.8  & First   &     4                           & 4                   \\ 
+      70                &  1.0  & First   &     4                           & 4                   \\ 
+      71                &  1.1  & First   &     4                           & 4                   \\ 
+    \end{tabular}
+    \caption{Cut index for the cut optimization.}
+    \label{table_app_cutindex}
+\end{table}
+}

@@ -1,0 +1,51 @@
+\chapter{Conclusion and Outlook}
+\label{chap_con}
+$J/\psi$ suppression is one of the most strong evidence of quark-gluon plasma (QGP) formation in relativistic heavy ion collisions. 
+The previous $J/\psi$ measurements at RHIC show the strong suppression of $J/\psi$ production in relativistic Au-Au collisions. 
+The experimental investigation of $J/\psi$ suppression has also been performed at LHC and the suppression of $J/\psi$ production in Pb-Pb collision was observed. 
+However the measured $J/\psi$ $R_{\rm{AA}}$ is affected by the not only QGP effects but also other nuclear matter effects such as the effect of the modification of the parton distribution function from free protons. 
+ 
+In order to determine the non-QGP effects phenomenologically, 
+the measurement of inclusive $J/\psi$ production in p-Pb collisions has been carried out at $\sqrt{s_{NN}}=$5.02 TeV with the ALICE detectors.
+The data was collected in 2013 winter. 
+$J/\psi$ was measured via dielectron decay channel in the mid-rapidity region $-1.37~<~y~<0.43$. 
+Electrons are reconstructed using information of ITS and TPC in the ALICE central barrel. 
+
+The cross section of inclusive $J/\psi$ in p-Pb collision at $\sqrt{s_{NN}}=$5.02 TeV is determined by, 
+\begin{equation}
+  \frac{d\sigma_{J/\psi}}{dy} =  946 ~\pm  ~50.1 ~\rm{(stat)} ~\pm 63 ~\rm{(~syst)}~\mu \rm{b}
+\end{equation}
+The nuclear modification factor in p-Pb collisions ($R_{\rm{pPb}}$) is extracted by comparing the $J/\psi$ spectrum in p-Pb collisions to the interpolated pp results from the measured pp cross section at various energy. 
+$R_{\rm{pPb}}$ of inclusive $J/\psi$ production at mid-rapidity is extracted as, 
+\begin{equation}
+  R_{\rm{pPb}} = \rm{0.77 ~\pm ~0.04 ~(stat) ~\pm ~0.14 ~(~syst) }
+\end{equation}
+The non-negligible suppression was observed due to the non-QGP nuclear matter effects. 
+Compared with the forward rapidity measurement via dimuon decay channel, the magnitudes of $R_{\rm{pPb}}$ are compatible within the uncertainties. 
+
+The model calculation which includes the shadowing effects parametrized by EPS09 nPDF and color evaporation model (CEM) show the overestimate of the nuclear modification factor compared to the results in this thesis. 
+This implies other nuclear matter effects are not negligible in $J/\psi$ production in p-Pb collisions. 
+The coherent energy loss describe $y$ dependence of $R_{pPb}$ qualitatively although the it depends on the nPDF and $\hat{q}$ parametrization.
+One calculation based on the color glass condensate framework underestimates $J/\psi$ production at mid-rapidity and forward rapidity. 
+%Despite the large discrepancy at the forward region, the magnitude at mid-rapidity is consistent with the result within the uncertainty. 
+
+The $p_{\rm{T}}$ differential $R_{\rm{pPb}}$ was also extracted and compared with the above results. 
+At high $p_{\rm{T}}$, no modification is observed. 
+At 1.5 $<$ $p_{\rm{T}}$ $<$ 4.5 GeV/$c$, the suppression ($R_{pPb}\sim$ 0.6-0.7) is observed. 
+On the other hand, the clear enhancement and all compared model calculation don't show this behavior. 
+The most significant suppression is expected at lowest bins due to the modification of nPDF at relatively small $Q^{2}$. 
+
+Assuming the shift of Bjorken-$x$ in Pb-Pb collisions is negligible that is supported by the theoretical prediction within 10\%, 
+we approximated the non-QGP nuclear modification factor as the product of $R_{\rm{pPb}}$. 
+Compared between $R_{\rm{pPb}}^{2}$ at $\sqrt{s_{NN}}=$5.02 TeV and $R_{\rm{AA}}$ in Pb-Pb collisions at $\sqrt{s_{NN}}=$2.76 TeV,  
+the suppression at high $p_{T}$ above 6.5 GeV/$c$ was confirmed. 
+On the other hand, an enhancement of $J/\psi$ yield was observed in Pb-Pb collisions compared to the factorized non-QGP modification factor at low and intermediate $p_{\rm{T}}$. 
+This support a large re-generation of $J/\psi$ in QGP at LHC energy. 
+The enhance and suppression factor is  in ptbins  , respectively. 
+The further systematic investigation on the collision geometry dependence to determine the non-QGP nuclear matter effects is needed.
+It allows us to study of path length dependence and impact parameter dependence of nPDF. 
+
+Run2 of LHC started in 2016 and it gives us the opportunity to investigate new collision energy in pp at $\sqrt{s}=$13, 14 TeV, p-Pb at $\sqrt{s_{NN}}=$8 TeV, Pb-Pb at $\sqrt{s_{NN}}=$5.02 TeV and improved statistics. 
+Furthermore pp at $\sqrt{s}=$5.02 TeV is also scheduled as the reference measurement of p-Pb and Pb-Pb. 
+This lead to the significant reduction of the systematic uncertainty of the pp reference. 
+It is crucial for quantitative explanation of $J/\psi$ production in relativistic heavy ion collisions. 

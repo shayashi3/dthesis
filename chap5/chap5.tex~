@@ -1,0 +1,311 @@
+\chapter{Results and Discussion}
+\label{chap_dis}
+\section{Cross Section of $J/\psi$ production in p-Pb collisions}
+Figure~\ref{fig_5_xsectiony} shows the $y$ dependence of inclusive $J/\psi$ cross section. 
+The blue marker shows the inclusive cross section of $J/\psi$ production at midrapidity (-1.37 $<$ $y_{\rm{CMS}}$ $<$ 0.43) measured in this thesis and the value is
+\begin{equation}
+  %\frac{d\sigma_{J/\psi}}{dy} =  946 ~\pm  ~50.1 ~\rm{(stat)} ~\pm 54 ~\rm{(uncorr.~syst)} ~\pm 32 ~\rm{(corr.~syst)}~\mu \rm{b}
+%  \frac{d\sigma_{J/\psi}}{dy} =  946 ~\pm  ~50.1 ~\rm{(stat)} ~\pm 63 ~\rm{syst}~\mu \rm{b}
+       \frac{d\sigma_{J/\psi}}{dy} =   930 ~\pm 83 ~\rm{(stat)} ~\pm ~59 ~\rm{(uncorr. syst)} ~\pm~ 31\rm{(corr. syst)} ~\mu  \rm{b}
+\end{equation}
+The red marker shows the inclusive $J/\psi$ cross section measured via dimuon decay channel with the ALICE muon arm~\cite{bib_alicemuon}.
+\begin{figure}[!h]
+  \centering
+  \includegraphics[width=12cm]{chap5/figure/CrossSection/JpsiCrossSection_MB_Y_tw.eps}
+  \caption{$y$ dependence of the Cross section in p-Pb collisions at $\sqrt{s_{NN}}=$ 5.02 TeV. 
+    The blue marker shows my results in mid-rapidity. 
+    The red marker show the measured cross section via dimuon decay channel in ALICE. 
+    The open square shows the uncorrelated systematic uncertainty and the shaded band shows the partially or fully correlated systematic uncertainties. 
+  }
+  \label{fig_5_xsectiony}
+\end{figure}
+
+%The latter 2 components express the correlated and uncorrelated systematic uncertainties with respect to the dimuon decay $J/\psi$ measurements in ALICE, respectively. 
+Since the systematic uncertainty of the normalization by the minimum event cross section $\sigma_{V0}$ is partially or fully correlated between dielectron and dimuon analysis, this uncertainty is expressed as the shaded band in Fig~\ref{fig_5_xsectiony} 
+%The open square and the shaded band show the uncorrelated and partially and fully correlated systematic uncertainties, respectively. 
+Partially correlated uncertainty is caused by the difference of the LHC run mode 'p-Pb' and 'Pb-p' defined in Section.~\ref{sec_3_runcondition}.
+The central and forward rapidity measurements are performed in the 'p-Pb' mode. 
+On the other hand, the backward rapidity measurement is performed in the 'Pb-p' mode. 
+Therefore the normalization value of $\sigma_{V0}$ is different each other but some components of its systematic uncertainty are correlated. 
+
+Figure~\ref{fig_5_xsectionpt} shows the invariant cross section of $J/\psi$ production as a function of $p_{\rm{T}}$. 
+The open square shows the uncorrelated systematic uncertainty and the shaded bands show the correlated uncertainty which comes from the uncertainties of $\sigma_{V0}$ and branching ratio of the dielectron decay channel. 
+The values of the cross section, statistical uncertainty, systematic uncertainty of $J/\psi$ cross section are summarized in Table.~\ref{table_5_xsection}.
+\begin{figure}[!h]
+  \centering
+  \includegraphics[width=12cm]{chap5/figure/CrossSection/JpsiInvCrossSection_MB_Pt_bin2_tw.eps}
+  \caption{
+    Invariant cross section as a function of $p_{\rm{T}}$ in p-Pb collisions at $\sqrt{s_{NN}}=$ 5.02 TeV.
+    The open square shows the uncorrelated systematic uncertainty and the shaded band shows the correlated systematic uncertainties. 
+  }
+  \label{fig_5_xsectionpt}
+\end{figure}
+\begin{table}[!h]
+  \centering
+  \begin{tabular}{c|c} \hline
+    $p_{\rm{T}}$ (GeV/$c$)  bin & $d\sigma_{J/\psi}/dp_{\rm{T}}dy$ $\pm$ stat $\pm$ uncorr. syst $\pm$  corr.syst ($\mu$b)\\ \hline
+    0.0 - 1.5                     & 154 $\pm$ 30 $\pm$ 11 $\pm$ 5  \\
+    1.5 - 3.0                   & 223 $\pm$ 40 $\pm$ 17 $\pm$ 7  \\
+    3.0 - 4.5                   & 162 $\pm$ 21 $\pm$ 11 $\pm$    \\
+    4.5 - 6.5                   & 47 $\pm$ 7 $\pm$ 3 $\pm$ 2    \\
+    6.5 - 10.0                  & 7.0 $\pm$ 2.0 $\pm$  0.6 $\pm$ 0.2                        \\ \hline
+  \end{tabular}
+  \caption{Summary of the inclusive $J/\psi$ cross section and their uncertainties in p-Pb collisions at $\sqrt{s_{NN}}=$5.02 TeV.}
+  \label{table_5_xsection}
+\end{table}
+
+\section{Inclusive $R_{\rm{pPb}}$ of $J/\psi$ production in p-Pb Collisions}
+Figure~\ref{fig_5_rppby} shows the $y$ dependence of the inclusive $J/\psi$ $R_{\rm{pPb}}$. 
+The red marker shows the results of dimuon decay $J/\psi$ at forward and backward rapidity region with the ALICE muon arm.  
+The inclusive $J/\psi$ $R_{\rm{pPb}}$ measured in this thesis at mid-rapidity (-1.37 $<$ $y$ $<$ 0.43) is
+\begin{equation}
+  R_{\rm{pPb}} = \rm{0.74 ~\pm ~0.07 ~(stat) ~\pm ~0.13 ~(uncorr.~syst) ~\pm ~0.03 ~(corr.~syst) }
+\end{equation}
+The latter 2 components express the correlated and uncorrelated systematic uncertainties with respect to the dimuon decay measurmentin, respectively. 
+The correlated systematic uncertainty with respect to dimuon measurement comes from the common normalization by the thickness function $T_{\rm{pPb}}$.
+%The main source of the systematic uncertainty at mid-rapidity is the uncertainty of the interpolated $d\sigma/dy$ in pp collisions at $\sqrt{s}=$5.02 TeV($\sim $ 16.1\%).
+The significant suppression of $J/\psi$ production is observed compared to pp collisions due to the nuclear matter effects in p-Pb collisions. 
+The integrated forward (2.03 $<~y~<$ 3.53) and backward (-4.46 $<~y~<$ -2.96) $R_{\rm{pPb}}$ is 
+0.70 $\pm$ 0.01 (stat) $\pm$ 0.06 (uncorr. syst) $\pm$ 0.03 (part. corr. syst) $\pm$ 0.03 (corr. syst) and 
+1.08 $\pm$ 0.01 (stat) $\pm$ 0.09 (uncorr. syst) $\pm$ 0.03 (part. corr. syst) $\pm$ 0.04 (corr. syst) 
+, respectively.
+The partially correlated uncertainty comes from the interpolations of the rapidity dependence of $d\sigma_{J/\psi}/dy$ in pp collisions.
+The mid-rapidity result shows the same level of suppression as the result of forward rapidity region where partons with smaller $x$($\propto \rm{e}^{-y}$) are dominant and stronger suppression is expected due to the modification of nPDF. 
+\begin{figure}[!h]
+  \centering
+  \includegraphics[width=12cm]{chap5/figure/RpPb/RpPb_MB_y_bin2_tw.eps}
+  \caption{$R_{\rm{pPb}}$ as a function of $y$ in p-Pb collisions at $\sqrt{s_{NN}}=$ 5.02 TeV.}
+  \label{fig_5_rppby}
+\end{figure}
+
+Figure~\ref{fig_5_rppbpt} shows the $p_{\rm{T}}$ dependence of the inclusive $J/\psi$ $R_{\rm{pPb}}$. 
+The black band around the right axis shows the uncertainty of the normalization. 
+The suppression is seen at the low and intermediate $p_{\rm{T}}$ bins ($p_{\rm{T}}=$ 1.3-5 GeV/$c$).
+On the other hand, the lowest bin doesn't significant suppression. 
+Above 5 GeV/$c$, no modification is observed within the uncertainties.  
+The values of $R_{\rm{pPb}}$ and uncertainties of the inclusive $J/\psi$ production are summarized in Table~\ref{table_5_rppb}.
+\begin{figure}[!h]
+  \centering
+  \includegraphics[width=12cm]{chap5/figure/RpPb/RpPb_MB_Pt_bin2_tw.eps}
+  \caption{$R_{\rm{pPb}}$ as a function of $p_{\rm{T}}$ in p-Pb collisions at $\sqrt{s_{NN}}=$ 5.02 TeV.}
+  \label{fig_5_rppbpt}
+\end{figure}
+
+\begin{table}
+  \centering
+  \begin{tabular}{c|c} \hline
+    $p_{\rm{T}}$ bin (GeV/$c$)  & $R_{\rm{pPb}}\pm stat \pm uncorr. syst \pm corr. syst$ \\ \hline
+    0.0 - 1.5 & 0.83 $\pm$ 0.15 $\pm$ 0.08 $\pm$ 0.14 \\
+    1.5 - 3.0    & 0.62 $\pm$ 0.11 $\pm$ 0.05 $\pm$ 0.10 \\
+    3.0 - 4.5  & 0.72 $\pm$ 0.11 $\pm$ 0.06 $\pm$ 0.12 \\
+    4.5 - 6.5 & 1.00 $\pm$ 0.13 $\pm$ 0.12 $\pm$ 0.17 \\
+    6.5 - 10.0 & 0.83 $\pm$ 0.18 $\pm$ 0.14 $\pm$ 0.14 \\ \hline
+  \end{tabular}
+  \caption{Summary of the inclusive $J/\psi$ $R_{\rm{pPb}}$ and the uncertainties in p-Pb collisions at $\sqrt{s_{NN}}=$5.02 TeV.}
+  \label{table_5_rppb}
+\end{table}
+
+
+
+\section{Comparison with the Quantitative Model Calculation}
+The results are compared to the several models including different nuclear matter effects.
+The calculated results are referred from~\cite{bib_alicemuon}.
+
+\subsubsection{NLO Color Evaporation Model with  EPS09 nPDF} 
+This calculation includes the modification of nPDF expected by EPS09 nPDF. 
+The main uncertainty of EPS09 band comes the shadowing parametrization.
+Since Deep Inelastic Scattering (DIS) is not sensitive to gluon PDF, nPDF parametrization in EPS09 uses the inclusive pion production in d+Au at RHIC~\cite{bib_daupion}. 
+However the uncertainty has still large band in small and intermediate $Q^{2}$ as shown in Fig.~\ref{fig_2_pdf}.
+$J/\psi$ production from $c\bar{c}$ is described by the NLO color evaporation model in this calculation. 
+
+\subsubsection{Parton Energy Loss in the Cold Nuclear Matter} 
+This calculation takes into account the coherent energy loss in the cold nuclear matter. 
+The detail of this calculation is described in Section.~\ref{sec_2_eloss}. 
+The calculation is performed with several $\had{q}$ parametrization in four nPDF assumption(pp parametrization, DSSZ, EPS09 nPDF, and Gluon Saturation). 
+This calculation depends on the variation of the parametrization quantitatively. 
+
+\subsubsection{Color Glass Condensate Framework Calculation} 
+In this calculation, nPDF is calculated with the Balitsky-Kovchegov (BK) equation including the running coupling corrections (rcBK equation). 
+The color evaporation model is adopted in the $J/\psi$ formation.  
+The main systematic uncertainty of the calculation comes from the uncertainties of $Q_{s}^{2}$ and charm quark mass. 
+The detail of the model description is described in Section.~\ref{sec_2_pdf}.
+
+~
+
+Figure~\ref{fig_5_rppbywmodel} shows the comparison of the $y$ dependence of $R_{\rm{pPb}}$ with the above model calculation. 
+At mid-rapidity, both of EPS09 shadowing parametrization and coherent energy loss model are consistent with the real data within the uncertainties. 
+The pure shadowing show the discrepancy as rapidity increasing. 
+This implies that other nuclear matter effects are not negligible in addition to the modification of nPDF at LHC energy. 
+The solid and dashed curves show the coherent energy loss calculation with EPS09 and PDF in pp collisions, respectively.
+Coherent energy loss model with typical $\hat{q}$ shows the better description of the whole rapidity dependence qualitatively. 
+The calculation with pp PDF parametrization shows the best agreement with the results but this calculation looks not realistic and overestimate of $\hat{q}$ because no modification of nPDF is assumed.  
+From the comparison between data and the coherent energy loss with EPS09 parametrization,  $\hat{q}$ in coherent energy loss process is expected smaller than $\hat{q}<$0.055 $\rm{GeV^{2}/fm}$.
+The CGC calculation underestimate at both of forward and mid-rapidity region. 
+\begin{figure}[!h]
+  \centering
+  \includegraphics[width=11cm]{chap5/figure/ModelComp/RpPb_y_wModel_tw.pdf}
+  \caption{Comparison of the $y$ dependence with the model calculation of $J/\psi$ $R_{pPb}$ as a function of $y$ in p-Pb collisions at $\sqrt{s_{NN}}=$ 5.02 TeV.}
+  \label{fig_5_rppbywmodel}
+\end{figure}
+
+%Figure~\ref{fig_5_rppbywmodel} show the 
+%The model considering the initial energy loss in the nuclei reproduces the $y$ dependence but this model expressed by the dotted curve in Fig.~\ref{fig_5rppby} is calculated with same PDF in pp collision.
+%Gluon saturation model shows the underestimate the data.
+
+Figure~\ref{fig_5_rppbm} shows the comparison of the $p_{\rm{T}}$ dependence between the measured $R_{\rm{pPb}}$ and the color evaporation model with EPS09 nPDF at mid-rapidity. 
+Around $p_{T}=$ 1.5 - 4.5 GeV/$c$, stronger suppression is observed compared to the EPS09 calculation. 
+Figure~\ref{fig_5_rppbm3} shows the comparison of the $p_{\rm{T}}$ dependence between the measured $R_{\rm{pPb}}$ and the model calculations. 
+The red, green, and magenta bands show the calculation based on gluon saturation with CGC framework, coherent energy loss with EPS09 nPDF parametriz\
+ation, and coherent energy loss with pp PDF parametrization.
+The pure energy loss model clearly overestimate $R_{\rm{pPb}}$ at $p_{\rm{T}}=$1.5-4.5 GeV/$c$.
+No model calculations show the enhancement at lower $p_{\rm{T}}$.
+However coherent energy loss model cannot be excluded due to the large uncertainties. 
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[width=12cm]{chap5/figure/ModelComp/RpPb_MB_wModelEPS_Pt_bin2_tw.eps}
+  \caption{Comparison of the $p_{\rm{T}}$ dependence between the measured $R_{\rm{pPb}}$ and the color evaporation model with EPS09 nPDF in p-Pb collisions at $\sqrt{s_{NN}}=$ 5.02 TeV.}
+  \label{fig_5_rppbm}
+\end{figure}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[width=12cm]{chap5/figure/ModelComp/RpPb_MB_w3Model_Pt_bin2_tw.eps}
+  \caption{Comparison of the $p_{\rm{T}}$ dependence between the measured $R_{\rm{pPb}}$ and the model calculations in p-Pb collisions at $\sqrt{s_{NN}}=$ 5.02 TeV. The red, green, and magenta bands show the calculation based on gluon saturation with CGC framework, coherent energy loss with EPS09 nPDF parametrization, and coherent energy loss with pp PDF parametrization. }
+  \label{fig_5_rppbm3}
+\end{figure}
+
+
+
+
+\section{Comparison to A-A collisions and Extraction of QGP Effects}
+%\subsection{Factorization of the Nomal Nuclear Matter Effects}
+%The nuclear modification factor in heavy ion collisions ($R_{\rm{AA}}$) can be divided into 3 parts, $R_{\rm{AA}}=R_{\rm{AA}}^{Init}\times R_{\rm{AA}}^{QGP} \times R_{\rm{AA}}^{Had}$. 
+%$R_{\rm{AA}, init}$ expresses the nuclear modification factor of initial parton-parton scattering. 
+%$R_{\rm{AA}, QGP}$ and $R_{\rm{AA, Had}}$ express the nuclear modification factor affected by QGP and the hadron gas phase, respectively. 
+The $J/\psi$ production in the initial parton-parton scattering($gg\rightarrow J/\psi+X$) is expressed by
+\begin{equation}
+  \sigma_{Pb+Pb \rightarrow J/\psi X} = \Sigma_{i, j, k_{cc}} f_{i}^{Pb}(x_{i}) ~\times ~\sigma_{i+j\rightarrow k_{cc}} ~\times ~f_{j}^{Pb}(x_{j}) ~\times ~\sigma_{k_{cc}\rightarrow J/\psi X}
+\end{equation}
+A simple approximation to determine the normal nuclear matter effects is valid in the gluon shadowing dominant region~\cite{bib_shadow}.
+The normal nuclear matter effects in heavy ion collisions can be factorized by the product of $R_{\rm{pPb}}$ 
+\begin{eqnarray}
+  R_{AA, init}|_{y\sim 0} & = & R_{pPb}|_{y \sim 0} \times R_{pPb}|_{y\sim0} \nonumber \\
+  R_{AA, init}|_{forward} & = & R_{pPb}|_{forward} \times R_{pPb}|_{backward}
+\end{eqnarray}
+
+Figure~\ref{fig_5_rppbrppb} shows the comparison $R_{AA}$ in 0-50 \% centrality and square of ($R_{pPb})^{2}$ collision in at midrapidity.
+The narrow squares show the correlated 
+The Pb-Pb data shows a smooth suppression in all $p_{T}$ region but the direct comparison to the ($R_{pPb}^{2}$) indicates two features of Pb-Pb results. 
+First point is a clear suppression above $p_{T}~>$ 4.5 GeV/$c$. 
+According to model calculations, regeneration enhance is dominant below 5 GeV/c at the midrapidity  
+because the regenerated charm quarks are thermalized and their typical momentum becomes very soft~\cite{bib_recomodel}. 
+This suppression is not described by the normal nuclear matter effects but QGP effects. 
+Therefore this suppression is pure signal of the color screening.  
+
+The second point is that the significant enhancement at lower $p_{\rm{T}}$. 
+The suppression is not QGP matter effects but the normal nuclear matter effects. 
+This is thought as the signal of $J/\psi$ regeneration in QGP. 
+As a next step, $S_{AA}$ is extracted and the experimental investigation of the signals from suppression and enhancement experimentally. 
+Figure~\ref{fig_5_saa} shows the survival fraction $S_{AA}$. 
+The propagation of the correlated.  At higher $p_{T}$, this can be thought as the pure signal of color screening. 
+The measured strength of the color screening is 0.41 $\pm$  0.12 (stat)$ \pm$ 0.14 (uncorr. syst) $\pm$ $^{0.1}_{0.07}$ (corr. syst). 
+Due to the fact that color screening does not have clear $p_{\rm{T}}$ dependence, 
+the strength of color screening is extrapolated from high $p_{T}$ assuming the flat shape. 
+After subtracting the surviving $J/\psi$, the rest is thought only regenerated $J/\psi$ 
+The signals of lower 2 bins are merged by the weighted mean and the enhancement factor is determined. 
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[width=12cm]{chap5/figure/SAA/JpsiRpbRpb_bin2_tw.eps}
+  \caption{
+  Comparison of $R_{AA}$ and $(R_{\rm{pPb}})^{2}$ in ALICE. The data points of Pb-Pb collisions are take from ~\cite{bib_alicejpsiraamid}. 	
+  }
+  \label{fig_5_rppbrppb}
+\end{figure}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[width=12cm]{chap5/figure/SAA/JpsiSAA_wCMS_bin2_tw.eps}
+  \caption{
+	Survival fraction ($S_{AA}$) of $J/\psi$ production in Pb-Pb collisions. 
+    }
+  \label{fig_5_saa}
+\end{figure}
+The measured suppression strength and enhance  factor 1.19 $\pm$ 0.49 (stat) $\pm$  0.33 (uncorr. syst) $\pm^{0.31}_{0.2}$ (corr. syst).
+Therefore the same amount $J/\psi$  is regenerated in QGP compared to the production of the initial hard process.
+The $c\bar{c}$ production is scaled by $\langleN_{coll} \rangle$, 
+The expected yield of $J/\psi$ is $\sim$ $N_{cc}\times$ the branching ratio (BR) of $c\bar{c}\rightarrow J/\psi$. 
+The yield of $J/\psi$ regeneration  is expressed by $N_{cc}\times N_{cc}/N_{part}$.
+Therefore the enhance factor is $N_{cc}\times N_{cc} \times N_{ch}/(N_{cc}\times BR)$.
+If BR = 2\%,  $N_{cc}$ is estimated 24. 
+%If $\sigma_{cc}^{pp}/$
+
+
+Since the $J/\psi$ production depends on the thermodynamics of the system as described in Section. ~.\ref{rhic}, 
+the inital energy density dependence is also exploited, 
+The initial energy is determined by the Bjorken formula, 
+\begin{equation }
+	\epsilon_{0} = \frac{dE_{T}}{d\eta}\frac{1}{\tan_{0}\pi R^{2}}
+\end{equaton}
+where $\tau_{0}$ is formation time which is unknown and expected $< $ 1 fm/c and R is the nuclear radius. 
+From the Fig.~\ref{fig_5_dedt}, the ratio of $\langle dE_{T}/d\eta \rangle$ to $\langle dn_{ch}/d\eta \rangle$ is almost flat $\sim$ 1.06.
+Measured $N_{ch} /d\eta$ is 1039~\cite{bib_pbpbmulti}
+With A=208 (Pb atomic mass number), $\tau_{0}\epsilon_{0}$ is 6.97. 
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[width=8cm]{chap5/figure/SAA/detde.png}
+  \caption{
+	Ratio of $\langle dE_{T}/d\eta \rangle$ to $\langle \frac{dn_{ch}}{d\eta}\rangle$ in heavy ion collisions. 
+      }
+  \label{fig_5_dedt}
+\end{figure}
+
+
+Figure~\ref{fig_5_saavse} shows the initial energy density dependence of $J/\psi$ production. 
+The data points show the previous  $J/\psi$ measurements at SPS and RHIC. 
+My result is separated in the regenerated $J/\psi$ and surviving $J/\psi$. 
+For surviving $J/\psi$, the sequential suppression is observed from SPS and RHIC. 
+\begin{figure}[!h]
+  \centering
+  \includegraphics[width=12cm]{chap5/figure/SAA/JpsiSAAvse0_bin2_tw.eps}
+  \caption{
+ 	$J/\psi$ $S_{AA}$  as a function of initial energy density. The narrow squares show the correlated uncertainty of pp reference between Pb-Pb and p-Pb collisions. 
+ 	The data points of other experiments are taken from~\cite{bib_rhicjpsisaa}.  
+   }
+  \label{fig_5_saavse}
+\end{figure}
+
+
+This analysis method can take into account the inclusive nomal nuclear matter effects and have a possibility to allows the direct comparison of model calculation to QGP. 
+By correcting the normal nuclear matter effects experimentally, enormous enhancement of $J/\psi$ production at lower $p_{T}$. 
+This is strong evidence of the regenerated $J/\psi$ and charm quark thermalization in QGP. 
+The suppression at higher $p_{\rm{T}}$ show the sequential suppression pattern from RHIC and SPS comparison data which is consistent with the color screening picture. 
+
+
+\begin{equation}
+%	R_{AA, Init} = \Sigma ^{N_{coll}}_{i=1} (R_{pA}(-y, b_{1}^{i}) \times R_{pA}(y, b_{2}^{i}) /N_{coll}
+  R_{AA, Init} = R_{pA}(-y, b_{1}^{i}) \times R_{pA}(y, b_{2}^{i})
+\end{equation}
+\begin{equation}
+	R_{AA} = \frac{dN_{AA}/dp_{T}}{\langle N_{coll}\rangle dN_{pp}/dp_{T}}
+\end{equation}
+\begin{equation}
+  \hat{q(x)} = \hat{q_{0}}(\frac{10^{2}}{x})^{0.3}
+\end{equation}
+\begin{equation}
+  S_{AA} = \frac{R_{AA}}{(R_{\rm{pPb}})^{2}}
+\end{equation}
+
+
+%\begin{figure}[!h]
+%  \centering
+%  \includegraphics[width=12cm]{chap5/figure/AA/JpsiRpPbsqvsRAA_0-40_bin2.eps}
+%  \caption{Inclusive $J/\psi$ $R_{\rm{AA}}$ in Pb-Pb collisions at $\sqrt{s_{NN}}=$2.76 TeV in 0-40\% centrality and the product of the inclusive $J/\psi$ $R_{\rm{pPb}}$ in p-Pb collisions. The data points of $R_{\rm{AA}}$ are taken from~\cite{bib_jpsiraaalice}}
+%  \label{fig_5_rppby}
+%\end{figure}
+
+
+
+

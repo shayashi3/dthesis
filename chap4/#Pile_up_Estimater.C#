@@ -1,0 +1,59 @@
+
+  cout <<"estimate for mue value: " << mue << endl;
+
+  //probability for more than 0 interactions in 1 bunch crossing
+  Double_t interaction_single_bunch_crossing = 1 - exp(-mue);
+  cout <<"probability for more than 0 interactions in 1 bunch crossing: " << interaction_single_bunch_crossing << endl;
+
+  //probability for more than 1 interaction in 1 bunch crossing
+  Double_t pile_up_single_bunch_crossing =  interaction_single_bunch_crossing - mue *  exp(-mue);
+  cout <<"probability for more than 1 interactions in 1 bunch crossing: " <<pile_up_single_bunch_crossing << endl;
+  //
+
+  //ratio of probability with more than one collision and with thos woth one collision 
+  Double_t ratio = pile_up_single_bunch_crossing /(  mue *  exp(-mue) ); 
+
+  cout <<"ratio of probability with more than one collision and with those with one collision: " << ratio << endl;
+
+  cout <<"fraction of events with pile-up within same bunch-crossing (assuming no offline rejection and no trigger bias): " << ratio/(1.0+ratio) << endl;
+
+  //number of bunch crossings within considered integration time
+  Int_t n_bunch_crossings = 0;
+
+  if(mode==1){
+    //appropriate formulae for long integration times and for averages
+    n_bunch_crossings = (Int_t) integration_time*exp(log(10)*(-6))/(1/(revolution_frequency*1000* n_colliding_bunch_pairs) ) ;
+  }else if(mode == 0){
+    //appropriate  for maximal value in case of  small integration times << 1/revolution_frequency = 89 mikroseconds
+    n_bunch_crossings= (Int_t)integration_time*exp(log(10)*(-6))/(bunch_spacing*exp(log(10)*(-9)) );
+  
+  }else{cout <<"mode not forseen!" << endl; return;}
+
+  cout <<"number of bunch crossings within considered integration time: " << n_bunch_crossings << endl;
+
+  //calculating probability for more than one bunch crossing each leading to at least 1 collision within the integration time
+  //(using binomial distribution for more than 1 sucesses within n_bunch_crossings trials)
+
+  Double_t probability_pile_up_different_bunches = 1 - (n_bunch_crossings)* (1- exp(-mue))* pow(exp(-mue),n_bunch_crossings-1 )
+    -  pow(exp(-mue),n_bunch_crossings);
+
+
+  cout << "probability for more than one bunch crossing each leading to at least 1 collision within the integration time: " << probability_pile_up_different_bunches << endl;
+
+  //calculating probability for exactly one bunch crossing leading to at least 1 collision within the integration time
+  //(using binomial distribution for more than 1 sucesses within n_bunch_crossings trials)
+ 
+  Double_t probability_no_pile_up_different_bunches = (n_bunch_crossings)* (1- exp(-mue))* pow(exp(-mue),n_bunch_crossings-1 );
+
+  cout << "probability for exactly one bunch crossing leading to at least 1 collision within the integration time: " << probability_no_pile_up_different_bunches<< endl;
+
+  //ratio between probability for more than one bunch crossing each leading to at least 1 collision within the integration time and probability for exactly one bunch crossing leading to at least 1 collision within the integration time
+
+  Double_t ratio2 = probability_pile_up_different_bunches / probability_no_pile_up_different_bunches ;
+  cout << "ratio between probability for more than one bunch crossing each leading to at least 1 collision within the integration time and probability for exactly one bunch crossing leading to at least 1 collision within the integration time: " << ratio2 << endl;
+
+  cout <<"fraction of events with pile-up from different bunch crossings (assuming no offline rejection and no trigger bias): " << ratio2/(1.0+ratio2) << endl;
+
+  return;
+
+}
