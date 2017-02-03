@@ -1,0 +1,144 @@
+\documentclass[a4paper,12pt,twoside]{book}
+%\documentclass[a4paper,12pt,twoside]{report}
+%\setlength{\topmargin}{0cm}
+\setlength{\topmargin}{20mm}
+\addtolength{\topmargin}{-1in}
+\setlength{\oddsidemargin}{0cm}
+\setlength{\evensidemargin}{0cm}
+\setlength{\textheight}{23cm}
+\setlength{\textwidth}{16cm}
+\usepackage{amsmath,amssymb,latexsym,enumerate,makeidx}
+\usepackage{epsfig,colortbl,textcomp,mathrsfs,graphicx}
+\usepackage{array}
+\usepackage{hhline}
+\usepackage{cite}
+\usepackage{CJKutf8}
+
+%\pagestyle{plain}
+%\pagestyle{headings}
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+\vspace*{4cm}
+\LARGE
+\begin{CJK}{UTF8}{ipxm}学位論文\end{CJK}\\
+
+\vspace{2cm}
+\LARGE J/$\psi$ production in p-Pb collisions at $\sqrt{s_{NN}}=$ 5.02 TeV \\
+\begin{CJK}{UTF8}{ipxm}(核子あたり重心系衝突エネルギー5.02 TeVでの陽子鉛衝突におけるJ/$\psi$生成)\end{CJK}\\
+%Dielectron production from charm and beauty quark decays in p-Pb collisions at $\sqrt{s_{\rm{NN}}} \eq$ 5.02 TeV
+
+\vspace{2cm}
+\begin{CJK}{UTF8}{ipxm}平成28年12月博士（理学）申請\end{CJK}\\
+
+\vspace{4cm}
+\begin{CJK}{UTF8}{ipxm}東京大学大学院理学系研究科\end{CJK}\\
+\begin{CJK}{UTF8}{ipxm}物理学専攻\end{CJK}\\
+\begin{CJK}{UTF8}{ipxm}林　真一\end{CJK}\\
+
+
+\vspace{1cm}
+\date{\today}
+\end{center}
+\end{titlepage}
+
+\thispagestyle{empty}
+\cleardoublepage
+
+\begin{titlepage}
+\Large
+\begin{center}
+\vspace*{4cm}
+\LARGE J/$\psi$ production in p-Pb collisions at $\sqrt{s_{NN}}=$ 5.02 TeV \\
+\vspace{7cm}
+ShinIchi Hayashi
+
+\vspace{4cm}
+Dissertation for the Degree of Doctor of Science
+\vspace{5mm}
+
+\large
+{\it Department of Physics\\
+  Graduate School of Science\\
+  University of Tokyo}
+
+\end{center}
+\end{titlepage}
+
+
+\cleardoublepage
+
+
+\input{abs/abs}
+\thispagestyle{empty}
+\cleardoublepage
+\pagenumbering{roman}
+\tableofcontents
+\listoffigures
+%\addcontentsline{toc}{chapter}{List of Figures}
+\listoftables
+%\addcontentsline{toc}{chapter}{List of Tables}
+
+\clearpage
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+%% Chap-1 Introduction
+
+\input{chap1/chap1}
+\clearpage
+%\setcounter{page}{1}
+%\pagenumbering{arabic}
+
+%% Chap-2 Physics Overview 
+
+\input{chap2/chap2}
+\clearpage
+%\setcounter{page}{1}
+%\pagenumbering{arabic}
+
+%% Chap-3 Conceptual Design Considerations
+
+\input{chap3/chap3}
+\clearpage
+%\setcounter{page}{1}
+%\pagenumbering{arabic}
+
+%% Chap-4 Physics Performance
+
+\input{chap4/chap4}
+\clearpage
+%\setcounter{page}{1}
+%\pagenumbering{arabic}
+
+\input{chap5/chap5}
+\clearpage
+%\setcounter{page}{1}
+%\pagenumbering{arabic}
+
+
+
+
+%\cleardoublepage
+%\setcounter{page}{1}
+%\pagenumbering{arabic}
+\input{chap6/chap6}
+\clearpage
+
+
+\clearpage
+\input{ackn/ackn}
+\addcontentsline{toc}{chapter}{Acknowledgments}
+\clearpage
+\input{app/app}
+\clearpage
+\input{app/appb}
+
+
+\clearpage
+\input{bib/bib}
+\addcontentsline{toc}{chapter}{Bibliography}
+
+\end{document}
